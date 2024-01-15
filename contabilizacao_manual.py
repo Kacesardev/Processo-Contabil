@@ -92,7 +92,7 @@ def send_email(subject_status, message):
     smtp_port = 587
     sender_email = 'sistemas@wlm.com.br'
     receiver_email = 'contabilidade.csc@wlm.com.br'
-    #receiver_email = 'eduardo.loyola@wlm.com.br'
+   
 
     # Criar o objeto de email
     msg = MIMEMultipart()
